@@ -4,8 +4,7 @@ fun main(){
     var m = "Hello my name is Nancy and I am 23 years old."
     println(m)
     var z = m ()
-            println(z)
-    var s = me("Muthoni")
+    println(z)
 }
 fun program(){
     var name ="codeHive"
@@ -21,15 +20,11 @@ fun sentence(name:String, age:Int): String {
     var m = name.toString() + age
     return m
 }
-fun m():Int{
+fun m():Int {
     var text = "Computer"
     var z = text.length
     return z
 }
-fun me (name:String){
-    if (name=="Wambui")
-        println("that is me")
-    else
-        println("I don't know who that is")
 
-}
+
+
